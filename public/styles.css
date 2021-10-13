@@ -1,0 +1,63 @@
+body {
+  background-color: #92A8D1;
+}
+
+#applicationForm, #applicationStatus {
+    display: none;
+}
+
+#s-nav-pad, #coa {
+  transition: 0.4s;
+}
+
+.s-nav-pad {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 1.5rem;
+}
+
+.afont {
+    font-size: 1.5rem;
+}
+
+.footer-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .footer-icon-padding{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+  }
+ 
+  @media (max-width: 992px) {
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
+    .footer-align{
+      text-align: center;
+    }
+    .img {
+      height: 300px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .footer-align{
+      text-align: center;
+    }
+    .footer-align-2{
+      text-align: center;
+    }
+    .carousel-height{
+      height: 70vh;
+    }
+    .img {
+      height: 500px;
+    }
+  }
+
