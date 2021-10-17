@@ -2,12 +2,111 @@ body {
   background-color: #92A8D1;
 }
 
+#body {
+  background-image: url(images/adminLogin.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#body-adminMain {
+  background-image: url(images/emptyRoad.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: aliceblue;
+}
+
+#body-driverReg {
+  background-image: url(images/driverTunnel.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#body-login {
+  background-image: url(images/driverTunnel.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#body-driverApp {
+  background-image: url(images/jhbcity1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 #applicationForm, #applicationStatus {
     display: none;
 }
 
 #s-nav-pad, #coa {
   transition: 0.4s;
+}
+
+#form-login {
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(231, 238, 255, 0.5);
+}
+
+#driver-reg {
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(231, 238, 255, 0.5);
+}
+
+#driver-login {
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(231, 238, 255, 0.5);
+}
+
+#driver-app {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(231, 238, 255, 0.5);
+}
+
+#admin-button{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  border-color: #2196F3;
+  color: dodgerblue;
+  border-radius: 5px;
+  text-decoration: none;
+}
+ #admin-button:hover {
+  background:dimgrey;
+  color: white;
+}
+
+#admin-update {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: #f5f7fa;
+  padding: 10px;
 }
 
 .s-nav-pad {
@@ -23,13 +122,13 @@ body {
 .footer-padding{
     padding-top: 10px;
     padding-bottom: 10px;
-  }
+}
   
-  .footer-icon-padding{
+.footer-icon-padding{
     padding-left: 5px;
     padding-right: 5px;
     font-size: 17px;
-  }
+}
  
   @media (max-width: 992px) {
     h3 {
@@ -44,13 +143,32 @@ body {
     .img {
       height: 300px;
     }
+   
+    #main-head{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    #update-form {
+      width: 250px;
+      text-align: center;
+    }
+    #driver-reg {
+      width: 350px;
+    }
+    #driver-login {
+      width: 350px;
+    }
+    #driver-app {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    #form-login {
+      width: 350px;
+    }
   }
   
   @media (min-width: 992px) {
     .footer-align{
-      text-align: center;
-    }
-    .footer-align-2{
       text-align: center;
     }
     .carousel-height{
@@ -59,5 +177,13 @@ body {
     .img {
       height: 500px;
     }
-  }
+    #main-head{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
 
+    #update-form {
+      width: 600px;
+      text-align: center;
+    }
+  }

@@ -114,7 +114,7 @@ app.post('/driverApp', (req, res) => {
     console.log(req.body);
     User.find({idNo: req.body.idNo, password: req.body.password})
     .then(result => {if (result == '') {
-        res.render('loginFail');
+        res.render('loginFail', {title: 'Fail'});
     } else {
         Applications.find({'idNo': req.body.idNo})
         .then (result2 => {
