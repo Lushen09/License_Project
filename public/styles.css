@@ -109,6 +109,9 @@ body {
   padding: 10px;
 }
 
+#pgraph {
+  margin-top: 20px;
+}
 .s-nav-pad {
     padding-top: 45px;
     padding-bottom: 45px;
@@ -175,7 +178,7 @@ body {
       height: 70vh;
     }
     .img {
-      height: 500px;
+      height: 650px;
     }
     #main-head{
       padding-top: 20px;
