@@ -15,10 +15,9 @@ const upload = multer({ dest: 'uploads/' });
 // express app
 const app = express();
 
-
 // connect to database
 //const dbURI = 'mongodb+srv://' + process.env.DB_USERNAME + ':' + process.env.DB_PASSWORD + '@license.o2yb0.mongodb.net/license?retryWrites=true&w=majority';
-const dbURI = "mongodb+srv://lushen09:devi09@license.o2yb0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const dbURI = "mongodb+srv://lushen09:devi09@license.o2yb0.mongodb.net/license?retryWrites=true&w=majority";
 mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true})
   .then((result) => app.listen(process.env.PORT || 3000))
   .then(console.log("Connection success"))
