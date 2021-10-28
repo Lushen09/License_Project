@@ -11,7 +11,6 @@ const fs = require('fs');
 const storage = multer.memoryStorage();
 const upload = multer({ dest: 'uploads/' });
 
-
 // express app
 const app = express();
 
